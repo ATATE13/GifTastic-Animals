@@ -56,6 +56,6 @@ $("#add-animal").on("click", function (event) {
     $("#animal-input").val("");
 });
 
-$(document).on("click", "animal-gif", animateGif);
-$(document).on("click", "animal-button", displayGifs);
+$(document).on("click", ".animal-gif", animateGif);
+$(document).on("click", ".animal-button", displayGifs);
 createButtons();
